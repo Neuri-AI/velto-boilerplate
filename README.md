@@ -12,7 +12,7 @@
 
 ## 🌟 Overview
 
-`velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern Qt bindings:
+`velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern UI frameworks:
 
 * **PySide2** (Qt 5 legacy)
 * **PySide6** (Qt 6 official)
