@@ -1,27 +1,32 @@
-# 🚀 Qyro Qt Desktop Boilerplate
+# 🚀 Velto Desktop Boilerplate
 
-> **The official, universal Qt desktop starter template for the [Qyro](https://github.com/Neuri-AI/qyro) ecosystem.**
+> **The official, universal desktop starter template for the [Velto](https://github.com/Neuri-AI/velto) framework.**
 
-[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue.svg)](https://python.org)
-[![Qt Bindings](https://img.shields.io/badge/Qt-PySide6%20%7C%20PyQt6%20%7C%20PyQt5%20%7C%20PySide2-green.svg)](https://qt.io)
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://python.org)
+[![Qt Bindings](https://img.shields.io/badge/UI-PySide6%20%7C%20PyQt6%20%7C%20PyQt5%20%7C%20PySide2-green.svg)](https://qt.io)
+[![Kivy](https://img.shields.io/badge/UI-Kivy-green.svg)](https://kivy.org)
+[![Tkinter](https://img.shields.io/badge/UI-Tkinter-green.svg)](https://docs.python.org/3/library/tkinter.html)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
 ---
 
 ## 🌟 Overview
 
-`qyro-boilerplate-qt` is the default starter template used by `qyro-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern Qt bindings:
+`velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern Qt bindings:
 
-* **PySide6** (Qt 6 official)
-* **PyQt6** (Riverbank)
-* **PyQt5** (Qt 5)
 * **PySide2** (Qt 5 legacy)
+* **PySide6** (Qt 6 official)
+* **PyQt5** (Riverbank)
+* **PyQt6** (Riverbank)
+* **Kivy**
+* **Tkinter**
+
 
 ---
 
 ## ✨ Features
 
-* **🔄 Multi-Binding Support:** Run your app with PySide or PyQt simply by editing your project settings.
+* **🔄 Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
 * **⚡ Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
 * **📦 Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
 * **❄️ Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
@@ -31,11 +36,9 @@
 
 ## 🚀 Usage
 
-This template is scaffolded automatically via the **Qyro CLI**:
+This template is scaffolded automatically via the **Velto CLI**:
 
 ```bash
 # Create a PySide6 project
-qyro init my-app --binding PySide6
+velto init my-app --framework pyside6
 
-# Or with PyQt6
-qyro init my-app --binding PyQt6
