@@ -1,0 +1,15 @@
+{
+    "app_name": "${app_name}",
+    "author": "${author}",
+    "entry_point": "main.py",
+    "addons": ${addons},
+    "version": "${version}",
+    "framework": "${binding}",
+    "hidden_imports": [
+        "__future__"
+    ],
+    "window": {
+        "width": 800,
+        "height": 600
+    }
+}
