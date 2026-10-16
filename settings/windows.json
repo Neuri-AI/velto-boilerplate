@@ -16,7 +16,7 @@
         "upx_excludes": [
             "vcruntime140.dll",
             "python3*.dll",
-            "${binding}.QtCore.pyd"
+            "${framework}.QtCore.pyd"
         ],
         "bytecode_opt": 0,
         "exclude_modules": [
