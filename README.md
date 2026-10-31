@@ -26,11 +26,11 @@
 
 ## Features
 
-* ** Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
-* ** Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
-* ** Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
-* ** Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
-* ** Window Auto-Config:** Automatic application title and icons based on your configuration files.
+* **Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
+* **Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
+* **Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
+* **Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
+* **Window Auto-Config:** Automatic application title and icons based on your configuration files.
 
 ---
 
