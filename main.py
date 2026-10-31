@@ -13,7 +13,7 @@ class ${class_name}(VeltoContext):
                     <img src="images/logo.svg"/>
 
                     <h1>Get started</h1>
-                    <p>Edit <span>src/App.tsx</span> and save to test HMR</p>
+                    <p>Edit <span>main.py</span> and save to test HMR</p>
 
                     <button on_click={() => set_count(count + 1)}>Count is {count}</button>
 
