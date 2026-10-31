@@ -1,6 +1,6 @@
 # 🚀 Velto Desktop Boilerplate
 
-> **The official, universal desktop starter template for the [Velto](https://github.com/Neuri-AI/velto) framework.**
+> **The official, universal starter template for the [Velto](https://github.com/Neuri-AI/velto) framework.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://python.org)
 [![Qt Bindings](https://img.shields.io/badge/UI-PySide6%20%7C%20PyQt6%20%7C%20PyQt5%20%7C%20PySide2-green.svg)](https://qt.io)
