@@ -12,7 +12,7 @@
 
 ## Overview
 
-`velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern UI frameworks:
+`velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern UI frameworks:
 
 * **PySide2** (Qt 5 legacy)
 * **PySide6** (Qt 6 official)
@@ -29,7 +29,7 @@
 * **Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
 * **Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
 * **Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
-* **Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
+* **Desktop & Mobile Builds:** Pre-configured for standalone desktop executables via PyInstaller, with Android and iOS packaging support through Kivy and supported Qt toolchains.
 * **Window Auto-Config:** Automatic application title and icons based on your configuration files.
 
 ---
