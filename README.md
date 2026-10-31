@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 `velto-boilerplate` is the default starter template used by `velto-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern UI frameworks:
 
@@ -24,21 +24,22 @@
 
 ---
 
-## ✨ Features
+## Features
 
-* **🔄 Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
-* **⚡ Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
-* **📦 Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
-* **❄️ Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
-* **🎨 Window Auto-Config:** Automatic application title and icons based on your configuration files.
+* ** Multi-Binding Support:** Run your app with any UI framework simply by editing your project settings.
+* ** Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
+* ** Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
+* ** Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
+* ** Window Auto-Config:** Automatic application title and icons based on your configuration files.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 This template is scaffolded automatically via the **Velto CLI**:
 
 ```bash
-# Create a PySide6 project
-velto init my-app --framework pyside6
+# Create a project
+velto init my-app
+```
 
