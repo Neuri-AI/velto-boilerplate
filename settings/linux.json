@@ -19,7 +19,6 @@
             "QtCore.abi3.so"
         ],
         "exclude_modules": [
-            "tkinter",
             "unittest",
             "test",
             "pydoc"
