@@ -18,8 +18,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "${python_bindings}",
-${addon_dependencies}
+${binding_dependencies}${addon_dependencies}
 ]
 
 
