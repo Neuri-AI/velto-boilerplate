@@ -23,10 +23,10 @@ ${binding_dependencies}${addon_dependencies}
 
 
 [project.urls]
-Homepage = "https://github.com/neuri-ai/qyro"
-Repository = "https://github.com/neuri-ai/qyro"
-Documentation = "https://qyro.neuri.ai"
-"Bug Tracker" = "https://github.com/neuri-ai/qyro/issues"
+Homepage = "https://github.com/neuri-ai/velto"
+Repository = "https://github.com/neuri-ai/velto"
+Documentation = "https://getvelto.dev"
+"Bug Tracker" = "https://github.com/neuri-ai/velto/issues"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
